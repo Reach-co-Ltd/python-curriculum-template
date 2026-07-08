@@ -1,2 +1,0 @@
-# curriculum_11 / 02. Dockerfileを書いてイメージを作る / requirements.txt
-# バックログの写経内容に従って記載してください
