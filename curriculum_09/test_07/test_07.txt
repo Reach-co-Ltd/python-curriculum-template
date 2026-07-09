@@ -1,0 +1,23 @@
+09章 07. 単元総合テスト - 確認テスト（問題文）
+
+FastAPIの理解を確認する問題です。[①]〜[⑧]の問いに答えてください。
+答えは answers_07.txt に番号ごとに記入してください。
+
+[①] HTTPメソッドとその用途をそれぞれ説明してください。
+（GET・POST・PATCH・DELETE）
+
+[②] 以下のエンドポイントのパスパラメータとクエリパラメータを特定してください。
+GET /tasks/{task_id}?done=false
+
+[③] PydanticのField(..., min_length=1)の ... は何を意味しますか？
+
+[④] 以下のSQLAlchemyコードは何をしていますか？
+db.query(Task).filter(Task.id == task_id).first()
+
+[⑤] APIRouterのprefix="/tasks"を設定したとき、@router.get("/{id}")のURLは何になりますか？
+
+[⑥] JWTトークンが認証に使われる流れを説明してください。
+
+[⑦] Depends(get_current_user)をエンドポイントの引数に追加すると何が起きますか？
+
+[⑧] db.add() → db.commit() → db.refresh() の3つのステップをそれぞれ説明してください。

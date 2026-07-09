@@ -1,0 +1,27 @@
+11章 05. 確認テスト（問題文）
+
+[①]〜[⑤]の問いに答えてください。
+答えは answers_05.txt に番号ごとに記入してください。
+
+[①] イメージとコンテナの違いを自分の言葉で説明してください。
+
+[②] 以下のDockerfileの各命令が何をしているか説明してください。
+
+FROM python:3.11-slim
+WORKDIR /app
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+COPY . .
+EXPOSE 8000
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
+
+[③] 以下のコマンドが何をするか説明してください。
+
+docker compose up --build
+docker compose down
+docker compose down -v
+docker compose logs -f backend
+
+[④] DATABASE_URLにlocalhostではなくdbと書く理由を説明してください。
+
+[⑤] .envファイルを.gitignoreに追加する理由を説明してください。

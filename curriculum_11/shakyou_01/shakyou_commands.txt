@@ -1,0 +1,14 @@
+# curriculum_11 / 01. コンテナとDockerの基礎 / 写経・コマンド記録
+# バックログの写経問題のコマンドを実行し、結果をここに貼り付けてください
+
+## docker --version の実行結果
+（ここに貼り付ける）
+
+## docker compose version の実行結果
+（ここに貼り付ける）
+
+## docker run --rm python:3.11-slim python --version の実行結果
+（ここに貼り付ける）
+
+## docker ps の実行結果
+（ここに貼り付ける）
